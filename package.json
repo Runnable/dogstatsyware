@@ -1,6 +1,6 @@
 {
   "name": "dogstatsyware",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "middleware for dogstatsd",
   "main": "index.js",
   "scripts": {
