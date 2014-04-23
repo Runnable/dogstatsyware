@@ -1,0 +1,32 @@
+{
+  "name": "dogstatsyware",
+  "version": "0.0.0",
+  "description": "middleware for dogstatsd",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Runnable/dogstatsyware.git"
+  },
+  "keywords": [
+    "Datadog",
+    "DogStatsD",
+    "middleware"
+  ],
+  "author": "Runnable",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Runnable/dogstatsyware/issues"
+  },
+  "homepage": "https://github.com/Runnable/dogstatsyware",
+  "dependencies": {
+    "dogstatsy": "0.0.1"
+  },
+  "devDependencies": {
+    "express": "^4.0.0",
+    "mocha": "^1.18.2",
+    "supertest": "^0.11.0"
+  }
+}
