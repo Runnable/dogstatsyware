@@ -12,7 +12,7 @@ $ npm install dogstatsy
 
 ```js
 
-var Dogstatsyware = require('./dogstatsyware');
+var Dogstatsyware = require('dogstatsyware');
 var express = require('express');
 var app = express();
 
